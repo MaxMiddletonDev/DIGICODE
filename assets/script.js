@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', QRCodeGenerator);
+document.addEventListener('DOMContentLoaded', qrCodeGenerator);
+document.addEventListener('DOMContentLoaded', backgroundMusic);
 
-document.addEventListener('DOMContentLoaded', () => {
+function backgroundMusic() {
   const audio = document.getElementById('backgroundMusic');
   audio.volume = 0.6;
 
@@ -14,11 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('visibilitychange', () => {
     document.hidden ? audio.pause() : audio.play().catch(() => {});
   });
-});
+}
 
-
-
-function QRCodeGenerator() {
+function qrCodeGenerator() {
   const input = document.getElementById('searchUrl');
   const generateButton = document.getElementById('generateQrCode');
   const qrCodeImage = document.getElementById('qrCodeImage');
