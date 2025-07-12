@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIGICODE</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets\style.css">
 </head>
 <body>
     <div class="container">
-        <img src="images\Shop.gif" alt="background" class="background-image">
-        <input id="search" type="text" placeholder="ENTER A URL">
-        <div class="qrcode"></div>
+        <img src="assets\images\Shop.gif" alt="background" class="background-image">
+        <img src="assets\images\Shopkeeper.gif" alt="shopkeeper" class="shopkeeper-image">
+        <div class="search-row">
+            <input id="searchUrl" type="text" placeholder="ENTER URL" autocomplete="off">
+            <button id="generateQrCode">Generate</button>
+        </div>
+        <img id="qrCodeImage" src="" alt="QR Code">
     </div>
-
-    <script src="script.js"></script>
+    <script src="assets\script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.4.4/qrcode.js" integrity="sha512-oxrVyBhqnzQ0BzuM0A/6dEIk0alz0p4SpDRaWvtuUoarIc8rnL5lVniHG5Dp21MRFojcQcmKHjaskNXhSaUPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
