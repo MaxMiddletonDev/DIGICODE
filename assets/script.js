@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', QRCodeGenerator);
 
+var x = document.getElementById("backgroundMusic").volume = 0.5;
+
 function QRCodeGenerator() {
   const input = document.getElementById('searchUrl');
   const generateButton = document.getElementById('generateQrCode');
