@@ -81,15 +81,6 @@ body {
     box-shadow: none;
 }
 
-#qrcode {
-    position: fixed;
-    top: 45.4%;
-    left: 17.23%;
-    width: 7.5vw;
-    height: 15vh;
-    border: #000000 0.2vw solid;
-}
-
 #generateQrCode {
     height: 100%;
     font-size: 1.5vw;
@@ -114,6 +105,26 @@ body {
 
 #qrCodeImage.fade-in {
     animation: fadeInOpacity 0.5s ease-in-out;
+}
+.qrCodeButtonsContainer {
+    position: fixed;
+    bottom: 33%;
+    left: 17.5%;
+    width: 7vw; 
+    height: auto;
+    display: flex;
+    gap: 0.5vw; 
+}
+.qrCodeButtons {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.qrCodeButtons img {
+    max-width: 100%; 
+    height: auto;  
+    display: block;  
 }
 
 @keyframes fadeInOpacity {

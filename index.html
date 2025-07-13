@@ -15,7 +15,14 @@
             <input id="searchUrl" type="text" placeholder="ENTER URL" autocomplete="off">
             <button id="generateQrCode">GENERATE</button>
         </div>
-        <img class="fade-in" id="qrCodeImage" src="" alt="QR Code">
+        <div class="qrCodeContainer">
+            <img class="fade-in" id="qrCodeImage" src="" alt="QR Code">
+        </div>
+        <div class="qrCodeButtonsContainer">
+            <button class="qrCodeButtons" id="downloadQrCode"><img src="assets\icons\downloading.png"/></button>
+            <button class="qrCodeButtons" id="openQrCode"><img src="assets\icons\open.png"/></button>
+            <button class="qrCodeButtons" id="deleteQrCode"><img src="assets\icons\trash.png"/></button>
+        </div>
     </div>
     <script src="assets\script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.4.4/qrcode.js" integrity="sha512-oxrVyBhqnzQ0BzuM0A/6dEIk0alz0p4SpDRaWvtuUoarIc8rnL5lVniHG5Dp21MRFojcQcmKHjaskNXhSaUPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
