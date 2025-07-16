@@ -2,6 +2,8 @@
 
 DIGICODE is a web-based project built using JavaScript, CSS, and HTML. It is designed to provide a seamless and interactive user experience for digital code input, validation, or related functionalities.
 
+🔗 **Live Demo:** [https://maxmiddletondev.github.io/DIGICODE/](https://maxmiddletondev.github.io/DIGICODE/)
+
 > **Note:** This project is **not yet responsive**. It may not display correctly on all screen sizes or devices.
 
 ## Features
