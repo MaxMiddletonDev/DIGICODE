@@ -31,6 +31,10 @@ DIGICODE is a web-based project built using JavaScript, CSS, and HTML. It is des
 3. **Customize:**
    - Edit the JavaScript, CSS, or HTML files to fit your needs.
 
+## Live Demo
+
+Check out the live version here: [https://maxmiddletondev.github.io/DIGICODE/](https://maxmiddletondev.github.io/DIGICODE/)
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for suggestions or improvements.
