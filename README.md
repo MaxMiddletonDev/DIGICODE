@@ -2,20 +2,20 @@
 
 DIGICODE is a web-based project built using JavaScript, CSS, and HTML. It is designed to provide a seamless and interactive user experience for digital code input, validation, or related functionalities.
 
-> **Note:** This project is **not yet responsive**. It may not display correctly on all screen sizes or devices.
+> **Note:** This project is responsive. However it is more suited for Laptop/PCs.
 
 ## Features
 
-- Interactive user interface for digital code entry
-- Client-side validation using JavaScript
-- Customizable styles with CSS
-- Easy to deploy and use
+- **QR Code Generation:** Instantly generate QR codes from any entered URL.
+- **Interactive UI:** A nostalgic, pixel-art storefront interface complete with background music.
+- **Download & Go:** Easily download your generated QR code as an image or open the linked URL directly from the app.
+- **Client-Side Validation:** JavaScript handles empty inputs with interactive placeholder prompts.
 
 ## Technologies Used
 
-- **JavaScript** (44.6%)
-- **CSS** (32.5%)
-- **HTML** (22.9%)
+- **JavaScript**
+- **CSS** 
+- **HTML** 
 
 ## Getting Started
 
